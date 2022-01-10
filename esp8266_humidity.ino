@@ -67,3 +67,12 @@ void setup() {
 void loop() {
   server.handleClient();                                // handle request from client web browser
 }
+
+
+/* TODO:
+ *  
+ *  - Use WiFIManager to manage access point credentials
+ *  - Add ESP8266 access point functionality to allow user to login in to ESP8266 first then select between client or AP options
+ *  - integrate OLED screen and push humidity updates to OLED screen
+ *  - Organize code into header files, HTML files, and resource folders
+ */
