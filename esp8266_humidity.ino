@@ -23,8 +23,8 @@ DHT dht(DHTPIN, DHTTYPE);                               // initialize a dht sens
 float humidity = 0.0;
 
 ESP8266WebServer server(80);                            // initialize server with port 80 open
-const char *ssid = "HOME3-2G";
-const char *pass = "Winter11*";
+const char *ssid = "";
+const char *pass = "";
 
 
 /* HTML handlers */
